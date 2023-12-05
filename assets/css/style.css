@@ -48,6 +48,7 @@ a {
 
 p {
     font-size: 16px;
+    text-align: justify; /* aligned the paragraph content */
 }
 
 .hero {
@@ -84,6 +85,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 .benefit-lead {
@@ -197,4 +199,8 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+/*added to avoid justification for all p tags*/
+#footer-para{
+    text-align: center;
 }
